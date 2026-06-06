@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "QDate",
+    "slug": "qdate",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "qdate",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.qdate.app"
+    },
+    "android": {
+      "package": "com.qdate.app",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
